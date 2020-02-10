@@ -8,7 +8,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'content':'Home Pages',
+            'content':'Home Page',
         }
     )
 

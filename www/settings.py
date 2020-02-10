@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'livesync.core.middleware.DjangoLiveSyncMiddleware',
 ]
 
-ROOT_URLCONF = 'any2all.urls'
+ROOT_URLCONF = 'www.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
@@ -61,7 +61,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'any2all/app/templates'),
+            os.path.join(BASE_DIR, 'app/templates'),
 
         ],
         'APP_DIRS': True,
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'any2all.wsgi.application'
+WSGI_APPLICATION = 'www.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
