@@ -1,9 +1,11 @@
 from django.shortcuts import render
+from .utils import download
 
 # Create your views here.
 
 def home(request):
     #assert isinstance(request, HttpRequest)
+    download.fromUrl("https://images.unsplash.com/photo-1579999284976-73d606de1161", "arandomphoto.png")
     return render(
         request,
         'app/index.html',
