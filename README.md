@@ -1,5 +1,7 @@
-any2all
+# Any2All
+A file converter project
 
+![Python Build](https://github.com/iOSHaven/any2all/workflows/Python%20application/badge.svg)
 
 # getting started
 
