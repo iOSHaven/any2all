@@ -1,6 +1,9 @@
-django==3.0.3
-django-livesync==0.5
-pytest==5.3.5
-pytest-cov==2.8.1
-pytest-django==3.8.0
-requests==2.22.0
+django==3.0.3               # django
+django-livesync==0.5        # auto refresh
+flake8==3.7.9               # syntax
+pylint==2.4.4               # syntax
+pytest==5.3.5               # unit tests
+pytest-cov==2.8.1           # unit test coverage
+pytest-django==3.8.0        # unit test for django
+requests==2.22.0            # http requests
+Wand==0.5.9                 # imagemagick wrapper
