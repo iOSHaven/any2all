@@ -12,14 +12,16 @@ The read me will cover how to get your environment setup, as well as folder stru
 2. use virtual env. `source env/bin/activate`
 3. install required dependencies (do step 2 first). `pip install -r requirements.txt`
 4. run using `python3 manage.py runserver`
-5. install packages (do step 2 first) `pip install <package-name>`
+5. install ImageMagick `brew install imagemagick`
+6. install packages (do step 2 first) `pip install <package-name>`
 
 ### windows
 1. create virtual env. `py -m venv env`
 2. use virtual env. `env\Scripts\activate.bat`
 3. install required dependencies (do step 2 first). `pip install -r requirements.txt`
 4. run using `py manage.py runserver`
-5. install packages (do step 2 first) `pip install <package-name>`
+5. install ImageMagick http://legacy.imagemagick.org/script/binary-releases.php#windows
+6. install packages (do step 2 first) `pip install <package-name>`
 
 ### suggested vscode extentions
 1. `autoDocstring` https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring

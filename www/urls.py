@@ -18,7 +18,9 @@ Including another URLconf
 
 # Uncomment next two lines to enable admin:
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('app.routes'))
-]
+    ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
