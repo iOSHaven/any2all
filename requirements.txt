@@ -1,4 +1,4 @@
-django==3.0.3               # django
+django==3.0.7               # django
 django-livesync==0.5        # auto refresh
 flake8==3.7.9               # syntax
 pylint==2.4.4               # syntax
